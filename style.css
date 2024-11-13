@@ -1,4 +1,14 @@
 
+/*
+Colours
+Light Purple: #7E7EB4
+Deep Purple: #3C3C67
+Dark Purple: #171727 
+Mint Green: #6DC5B2
+Dark Mint Green: #46AF98
+*/
+
+
 *{
     padding: 0;
     margin: 0;
@@ -20,7 +30,7 @@
 
 body {
     font-family: 'Catamaran', sans-serif;
-    color: #192B37;
+    color: #171727;
 }
 
 .padded { padding: 5% }
@@ -28,8 +38,8 @@ body {
 .padded-lg { padding: 10%;}
 
 .bg-dark { 
-    background-color: #192B37;
-    color: white;
+    background-color: #3C3C67;
+    color: #46AF98;
  }
 
 .tall-50 {min-height: 50vh;  }
@@ -67,12 +77,13 @@ a{
 }
 
 a:hover {
-    color: #FFBE00;
+    color: #46AF98;
 }
 
 
-.featured-text { color: #FFBE00;}
-.white-text { color: white;}
+.featured-text { color: #46AF98; }
+.mint-text { color: #46AF98; }
+.white-text { color: white; }
 
 
 .small-text  { font-size: 1.5rem;}
@@ -80,16 +91,17 @@ a:hover {
     font-size: 2rem;  
     line-height: 1.1;
 }
+
 .big-text    { font-size: 4.5rem;  }
 .subtitle { 
     font-size: 1.2rem;
-    color: rgb(120,120,125);
+    color: #3C3C67;
 }
 
 .quote-icon {
     font-size: 6rem;
     display: inline-block;
-    color: rgb(120,120,125);
+    color: #46AF98 ;
     line-height: 1;
 }
 
@@ -127,17 +139,26 @@ footer a {
 /* background images */
 
 .bg-fruitice {
-    background-image: url('images/project-1-ioc-fruitice.jpg 
+    background-image: url('images/project-1-ioc-fruitice.jpg');
 }
 
 .bg-bluebowl { 
     background-image: url('images/project-1-ioc-blueberrybowl.jpg');
-    background-position: 32% 44%;
+    background-position: 14% 3%;
 }
 
 .bg-fruitice {
     background-image: url('images/project-1-ioc-fruitice.jpg');
-    background-position: 50% 53%;
+    background-position: 50% 41%;
+}
+
+.bg-chocice {
+    background-image: url('images/project-1-ioc-chocice.jpg') ;
+    background-position: center;
+}
+
+.bg-purpleice {
+    background-image: url('images/project-1-ioc-purpleice.jpg') ;
 }
 
 
@@ -146,5 +167,5 @@ footer a {
     display: block;
     text-align: center;
     margin-bottom: 2rem;
-    font-size: 3rem;
+    font-size: 10rem;
 }
