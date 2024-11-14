@@ -44,6 +44,11 @@ body {
     color: #46AF98;
  }
 
+ .bg-light {
+    background-color: #46AF98;
+    color: #3C3C67;
+ }
+
 
 .tall-50 {min-height: 50vh;  }
 .tall-60 { min-height: 60vh; }
