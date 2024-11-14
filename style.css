@@ -134,10 +134,16 @@ a:hover {
 
  /* Header & Footer Styles */
 
- header {
+header {
     background-image:url(/images/project-1-ioc-heatherice.jpg) ; 
     background-size: cover;
     background-position: 50% 88%;
+}
+
+
+header a {
+    padding: 0.25rem;
+    text-decoration: none;
 }
 
 
