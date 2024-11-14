@@ -26,12 +26,14 @@ Dark Mint Green: #46AF98
 }
 
 
+
 /* Universal Styles & Utility Classes */
 
 body {
     font-family: 'Catamaran', sans-serif;
     color: #171727;
 }
+
 
 .padded { padding: 5% }
 .padded-sm { padding: 1rem; }
@@ -41,6 +43,7 @@ body {
     background-color: #3C3C67;
     color: #46AF98;
  }
+
 
 .tall-50 {min-height: 50vh;  }
 .tall-60 { min-height: 60vh; }
@@ -58,7 +61,10 @@ h2 {
     margin-bottom: 1rem;
 }
 
-h3 { line-height: 1;}
+h3 { 
+    line-height: 1;
+}
+
 
 p {
     font-weight: 200;
@@ -86,13 +92,19 @@ a:hover {
 .white-text { color: white; }
 
 
-.small-text  { font-size: 1.5rem;}
+.small-text  { 
+    font-size: 1.5rem;
+}
+
 .medium-text { 
     font-size: 2rem;  
     line-height: 1.1;
 }
 
-.big-text    { font-size: 4.5rem;  }
+.big-text { 
+    font-size: 4.5rem;  
+}
+
 .subtitle { 
     font-size: 1.2rem;
     color: #3C3C67;
@@ -103,6 +115,10 @@ a:hover {
     display: inline-block;
     color: #46AF98 ;
     line-height: 1;
+}
+
+.icecream-icon {
+    font-size: 3rem;
 }
 
 
