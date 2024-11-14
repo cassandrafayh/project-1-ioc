@@ -25,6 +25,10 @@ Dark Mint Green: #46AF98
     min-height: 10rem;
 }
 
+.landscape { padding-bottom: 65%; }
+.portrait  { padding-bottom: 125%; }
+.square    { padding-bottom: 100%; }
+
 
 
 /* Universal Styles & Utility Classes */
@@ -68,6 +72,11 @@ h2 {
 
 h3 { 
     line-height: 1;
+}
+
+h2, h3, h4, h5, h5 {
+    margin-bottom: 1rem;
+    line-height: 1.1;
 }
 
 
