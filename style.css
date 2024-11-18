@@ -128,32 +128,6 @@ img { max-width: 100%; }
 
 
 
-/* Background Images */
-
-.bg-fruitice {
-    background-image: url('images/project-1-ioc-fruitice.jpg');
-}
-
-.bg-bluebowl { 
-    background-image: url('images/project-1-ioc-blueberrybowl.jpg');
-    background-position: 14% 3%;
-}
-
-.bg-fruitice {
-    background-image: url('images/project-1-ioc-fruitice.jpg');
-    background-position: 50% 41%;
-}
-
-.bg-chocice {
-    background-image: url('images/project-1-ioc-chocice.jpg') ;
-    background-position: center;
-}
-
-.bg-purpleice {
-    background-image: url('images/project-1-ioc-purpleice.jpg') ;
-}
-
-
 /* Icon Grid */
 .fas {
     display: block;
@@ -161,7 +135,6 @@ img { max-width: 100%; }
     margin-bottom: 2rem;
     font-size: 10rem;
 }
-
 
 
 
@@ -215,6 +188,14 @@ a:hover {
 }
 
 
+.font-weight-light      { font-weight: 200;}
+.font-weight-normal     { font-weight: normal;}
+.font-weight-extra-bold { font-weight: 800;}
+
+.text-left    { text-align: left;   }
+.text-center  { text-align: center; }
+.text-right   { text-align: right;  }
+
 
 .featured-text { color: #46AF98; }
 .mint-text { color: #46AF98; }
@@ -240,7 +221,9 @@ a:hover {
 }
 
 
+
 /* Font Awesome Icons */
+
 .quote-icon {
     font-size: 6rem;
     display: inline-block;
@@ -253,29 +236,22 @@ a:hover {
 }
 
 
-.font-weight-light      { font-weight: 200;}
-.font-weight-normal     { font-weight: normal;}
-.font-weight-extra-bold { font-weight: 800;}
-
-.text-left    { text-align: left;   }
-.text-center  { text-align: center; }
-.text-right   { text-align: right;  }
 
 
-
- /* Header & Footer Styles */
+ /* ---------- Header & Footer Styles ---------- */
 
 header {
     background-image:url(/images/project-1-ioc-heatherice.jpg) ; 
     background-size: cover;
     background-position: 50% 88%;
-    padding: 1% 5%;
+    padding: 2% 5%;
 }
 
 
 header a {
     padding: 0.25rem;
     text-decoration: none;
+    display: inline-block;
 }
 
 
@@ -288,5 +264,32 @@ footer a {
     border: none;
 }
 
+.logo h2 {
+    margin-bottom: 0;
+}
 
 
+/* ---------- Background Images ---------- */
+
+.bg-fruitice {
+    background-image: url('images/project-1-ioc-fruitice.jpg');
+}
+
+.bg-bluebowl { 
+    background-image: url('images/project-1-ioc-blueberrybowl.jpg');
+    background-position: 14% 3%;
+}
+
+.bg-fruitice {
+    background-image: url('images/project-1-ioc-fruitice.jpg');
+    background-position: 50% 41%;
+}
+
+.bg-chocice {
+    background-image: url('images/project-1-ioc-chocice.jpg') ;
+    background-position: center;
+}
+
+.bg-purpleice {
+    background-image: url('images/project-1-ioc-purpleice.jpg') ;
+}
