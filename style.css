@@ -296,6 +296,17 @@ footer a {
 }
 
 
+.parent { position: relative; }
+
+
+.child {
+  	position: absolute;
+  	right: 10px;
+  	bottom: 0;  
+    top: 0;
+}
+
+
 /* ---------- Background Images ---------- */
 
 .bg-fruitice {
