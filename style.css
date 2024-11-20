@@ -303,6 +303,12 @@ footer a {
   	position: absolute;
   	right: 10px;
   	bottom: 0;  
+}
+
+.child-nav {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
     top: 0;
 }
 
