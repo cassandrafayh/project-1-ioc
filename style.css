@@ -283,6 +283,7 @@ header {
     background-size: cover;
     background-position: 50% 88%;
     padding: 2% 5%;
+    position: relative;
 }
 
 
@@ -319,10 +320,12 @@ footer a {
 }
 
 .child-nav {
-    position: absolute;
+    position: relative;
     right: 10px;
+    left: 0;
     bottom: 0;
     top: 0;
+    width: 100%;
 }
 
 
